@@ -675,7 +675,7 @@ img {
 }
 
 
-.modal-checkbox:checked + .checkbox-icon{
+.modal-checkbox:checked + .check-text span{
     background-color: rgba(64, 75, 191, 1);
     border: none;
     fill: #F4F4FD;
