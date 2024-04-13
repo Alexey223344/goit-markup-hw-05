@@ -581,10 +581,10 @@ background-color: #31d0aa;
 
 .modal-lable {
   display: block;
-  margin-bottom: 8px;
+ margin-bottom: 4px;
   font-weight: 400;
   font-size: 12px;
-  line-height: 1.16667;
+  line-height: 1.17;
   letter-spacing: 0.04em;
   color: #8e8f99;
 }
@@ -592,6 +592,11 @@ background-color: #31d0aa;
 .modal-span {
   display: block;
   margin-bottom: 4px;
+}
+
+.subscribe-lable{
+line-height: 1.17;
+margin-bottom: 4px;
 }
 
 .modal-svg-icons {
@@ -604,6 +609,7 @@ background-color: #31d0aa;
 
 .modal-bang {
   position: relative;
+  margin-bottom: 8px; 
 }
 
 .modal-lable-btn {
@@ -636,9 +642,10 @@ font-weight: 500;
 .check-text {
   font-weight: 400;
   font-size: 12px;
-  line-height: 1.16;
+  line-height: 1.17;
   letter-spacing: 0.04em;
   color: #8e8f99;
+  margin-bottom: 4px;
 }
 
 .policy-text {
