@@ -451,6 +451,71 @@ img {
 .footer-logo-left {
   margin-right: 120px;
 }
+.footer-subscribe {
+  width: 453px;
+  height: 80px;
+}
+
+.footer-form {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 24px;
+}
+
+.footer-logo-input {
+  padding: 8px 16px;
+  background-color: transparent;
+  border: 1px solid #fff;
+  box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
+  border-radius: 4px;
+  width: 264px;
+  height: 40px;
+  padding-left: 16px;
+  font-size: 12px;
+  line-height: 2;
+  letter-spacing: 0.04em;
+  color: #fff;
+  background-color: transparent;
+  outline: none;
+  transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.footer-logo-input::placeholder {
+  font-size: 12px;
+  line-height: 2;
+  letter-spacing: 0.04em;
+  color: #fff;
+}
+
+.subscribe-btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 8px 24px;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  text-align: center;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  min-width: 165px;
+  height: 40px;
+  box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
+  background-color: #4d5ae5;
+  cursor: pointer;
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+.subscribe-btn:hover,
+.subscribe-btn:focus {
+  background-color: #404bbf;
+}
+
+.sub-icon {
+  margin-left: 16px;
+}
 
 /* ------------------------MODAL------------------------------- */
 .backdrop {
@@ -487,6 +552,7 @@ img {
   box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 2px 1px rgba(0, 0, 0, 0.2);
   margin-bottom: 8px;
 }
+
 .modal-btn {
   position: absolute;
   top: 24px;
@@ -621,7 +687,6 @@ img {
   cursor: pointer;
   display: block;
   margin: auto;
-
   margin-top: 24px;
   border: none;
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
@@ -631,6 +696,13 @@ img {
 .modal-lable-btn:focus {
   background-color: #404bbf;
 }
+
+.modal-checkbox:checked + .check-text span {
+  background-color: #404bbf;
+  border: none;
+  fill: #f4f4fd;
+}
+
 .check-text {
   font-weight: 400;
   font-size: 12px;
@@ -638,7 +710,6 @@ img {
   letter-spacing: 0.04em;
   color: #8e8f99;
   fill: transparent;
-
 }
 
 .policy-text {
@@ -647,6 +718,7 @@ img {
   text-decoration-skip-ink: none;
   color: #4d5ae5;
 }
+
 .file {
   margin-bottom: 16px;
 }
@@ -664,7 +736,7 @@ img {
   height: 16px;
   border-radius: 2px;
   border: 1px solid rgba(46, 47, 66, 0.4);
-   fill: transparent;
+  fill: transparent;
   display: inline-flex;
   justify-content: center;
   align-items: center;
@@ -672,79 +744,4 @@ img {
   margin-right: 8px;
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), border 250ms cubic-bezier(0.4, 0, 0.2, 1),
     fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
-}
-
-
-.modal-checkbox:checked + .check-text span {
-    background-color: #404bbf;
-    border: none;
-    fill: #f4f4fd;
-}
-
-.footer-subscribe {
-  width: 453px;
-  height: 80px;
-}
-
-.footer-form {
-  display: flex;
-  justify-content: flex-start;
-  align-items: center;
-  gap: 24px;
-}
-
-.footer-logo-input {
-  padding: 8px 16px;
-  background-color: transparent;
-  border: 1px solid #fff;
-  box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
-  border-radius: 4px;
-  width: 264px;
-  height: 40px;
-  padding-left: 16px;
-  font-size: 12px;
-  line-height: 2;
-  letter-spacing: 0.04em;
-  color: #fff;
-  background-color: transparent;
-  outline: none;
-  transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
-}
-
-.footer-logo-input::placeholder {
-  font-size: 12px;
-  line-height: 2;
-  letter-spacing: 0.04em;
-  color: #fff;
-}
-
-
-
-.subscribe-btn {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  padding: 8px 24px;
-  font-weight: 500;
-  font-size: 16px;
-  line-height: 1.5;
-  letter-spacing: 0.04em;
-  text-align: center;
-  color: #fff;
-  border: none;
-  border-radius: 4px;
-  min-width: 165px;
-  height: 40px;
-  box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
-  background-color: #4d5ae5;
-  cursor: pointer;
-  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
-}
-.subscribe-btn:hover,
-.subscribe-btn:focus {
-  background-color: #404bbf;
-}
-
-.sub-icon {
-  margin-left: 16px;
 }
