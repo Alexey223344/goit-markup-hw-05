@@ -687,12 +687,14 @@ font-weight: 500;
 
 
 
-.modal-checkbox:checked + .check-text > .checkbox-icon{
-  background-color: #404bbf;
-  border: none;
-  fill: #F4F4FD;
 
+.modal-checkbox:checked + .check-text span{
+background-color:#404bbf;
+border: none;
+ fill: #F4F4FD;
 }
+
+
 
 .footer-subscribe{
       width: 453px;
