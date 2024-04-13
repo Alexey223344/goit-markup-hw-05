@@ -688,10 +688,10 @@ font-weight: 500;
 
 
 
-.modal-checkbox:checked + .check-text .checkbox-icons{
-background-color:#404bbf;
-border: none;
- fill: #F4F4FD;
+.modal-checkbox:checked + .check-text .checkbox-icon {
+    background-color: var(--background-color);
+    border: none;
+    fill: var(--icon-color);
 }
 
 
