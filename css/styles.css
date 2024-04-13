@@ -675,7 +675,11 @@ img {
 }
 
 
-
+.modal-checkbox:checked + .check-text span {
+    background-color: #404bbf;
+    border: none;
+    fill: #f4f4fd;
+}
 
 .footer-subscribe {
   width: 453px;
